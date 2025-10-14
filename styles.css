@@ -4,4 +4,43 @@
   margin: 0px;
   text-decoration: none;
   list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #e5e7eb;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/*NAV*/
+
+.navbar {
+  background-color: #1f2937;
+  height: 60px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.navbar .links {
+  display: flex;
+  font-size: 18px;
+}
+
+.navbar .links li {
+  margin-left: 32px;
 }
