@@ -1,3 +1,5 @@
+/* To anyone who looks at this: I apologize for the mess you are about to witness. I have not yet mastered Flexbox, so some of this code may appear Frankensteinian to those who have a greater grasp of display: flex; than I. I have read and re-read the lessons to the point that my vision now sees everything as little boxes alinged on axes, but complete comprehension on the topic aludes me. One day I will revisit this and clean it up, but for now I must move on, lest my sanity continue to plummet.*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
