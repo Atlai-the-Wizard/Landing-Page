@@ -16,7 +16,7 @@ a:link, a:visited, a:hover, a:active {
   margin: 0 auto;
 }
 
-/*NAV*/
+/*NAVBAR*/
 
 .navbar {
   background-color: #1f2937;
@@ -44,3 +44,89 @@ a:link, a:visited, a:hover, a:active {
 .navbar .links li {
   margin-left: 32px;
 }
+
+/* HERO */
+
+.header {
+  background-color: #1f2937;
+  height: 350px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 65px;
+}
+
+.header .text {
+  width: 550px;
+}
+
+.header .text h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.header .text p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header .text button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  box-shadow: none;
+  border: none;
+  border-radius: 5px;
+  padding: 3px 16px;
+  margin-top: 8px;
+}
+
+.header .image {
+  color: #e5e7eb;
+  background-color: #6d747d;
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MAIN */
+
+.main .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .main-box {
+  display: flex;
+}
+
+.main .main-text {
+  font-weight: 900;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+.blank-box-container {
+  width: 140px;
+  margin-inline: 30px;
+}
+
+.blank-box {
+  height: 140px;
+  width: 140px;
+  border: 3px solid #3882f6;
+  border-radius: 12px;
+}
+
+.box-text {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 4px;
+}
+
+/* MAIN 2 */
+
