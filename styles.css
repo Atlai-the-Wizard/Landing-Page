@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
   text-decoration: none;
   list-style-type: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -59,7 +61,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .header .text {
-  width: 550px;
+  width: 400px;
 }
 
 .header .text h1 {
@@ -80,7 +82,7 @@ a:link, a:visited, a:hover, a:active {
   border: none;
   border-radius: 5px;
   padding: 3px 16px;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .header .image {
@@ -129,4 +131,33 @@ a:link, a:visited, a:hover, a:active {
 }
 
 /* MAIN 2 */
+
+.main-2 {
+  background-color: #e5e7eb;
+  height: 350px;
+}
+
+.main-2 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  height: 100%;
+  margin-top: 70px;
+}
+
+.main-2 .quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  text-align: left;
+  padding-bottom: 12px;
+}
+
+.main-2 .quoted {
+  font-size: 24px;
+  font-weight: 900;
+  align-self: flex-end;
+  margin-right: 24px;
+}
 
